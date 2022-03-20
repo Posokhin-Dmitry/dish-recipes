@@ -2,7 +2,6 @@ const RandomRecipe = ({ dataRecipes }) => {
   const { idMeal, strMeal, strMealThumb, strInstructions } = dataRecipes;
   return (
     <div id={idMeal}>
-      <h1>{strMeal}</h1>
       <img
         src={
           strMealThumb
@@ -12,6 +11,7 @@ const RandomRecipe = ({ dataRecipes }) => {
         alt={strMeal}
         width={600}
       />
+      <h1>{strMeal}</h1>
       <p>{strInstructions}</p>
     </div>
   );
