@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className={s.header}>
       <nav className={s.nav}>
-        <NavLink to="/dish-recipes" className={s.navText}>
+        <NavLink to="/" className={s.navText}>
           Home
         </NavLink>
         <NavLink to="/favorites" className={s.navText}>
