@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dish-recipes/static/css/main.0a7af461.css",
-    "main.js": "/dish-recipes/static/js/main.d40187b5.js",
+    "main.js": "/dish-recipes/static/js/main.a6f963de.js",
     "index.html": "/dish-recipes/index.html",
     "main.0a7af461.css.map": "/dish-recipes/static/css/main.0a7af461.css.map",
-    "main.d40187b5.js.map": "/dish-recipes/static/js/main.d40187b5.js.map"
+    "main.a6f963de.js.map": "/dish-recipes/static/js/main.a6f963de.js.map"
   },
   "entrypoints": [
     "static/css/main.0a7af461.css",
-    "static/js/main.d40187b5.js"
+    "static/js/main.a6f963de.js"
   ]
 }
