@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dish-recipes/static/css/main.0a7af461.css",
+    "main.js": "/dish-recipes/static/js/main.1f59bcdc.js",
+    "index.html": "/dish-recipes/index.html",
+    "main.0a7af461.css.map": "/dish-recipes/static/css/main.0a7af461.css.map",
+    "main.1f59bcdc.js.map": "/dish-recipes/static/js/main.1f59bcdc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a7af461.css",
+    "static/js/main.1f59bcdc.js"
+  ]
+}
