@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 
-import s from './ContactForm.module.css';
+import s from './Form.module.css';
 
-function ContactForm({ onSubmit }) {
+function Form({ onSubmit }) {
   const [name, setName] = useState('');
   const [instruction, setInstruction] = useState('');
 
@@ -55,7 +55,7 @@ function ContactForm({ onSubmit }) {
           value={instruction}
           required
           onChange={handleChange}
-          className={s.formInput}
+          className={s.formTextarea}
         />
       </label>
 
@@ -66,8 +66,8 @@ function ContactForm({ onSubmit }) {
   );
 }
 
-ContactForm.propTypes = {
+Form.propTypes = {
   onSubmit: PropTypes.func,
 };
 
-export default ContactForm;
+export default Form;

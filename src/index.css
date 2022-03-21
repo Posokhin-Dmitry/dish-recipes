@@ -12,12 +12,18 @@ code {
     monospace;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 .Overlay {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +31,12 @@ code {
   z-index: 1200;
 }
 
-.Modal {
-  background-color: white;
-  padding: 50px;
+.active {
+  text-shadow: 3px 3px 10px #1cee26, -3px -3px 10px #1cee26;
+}
+
+.button-section {
+  /* display: flex; */
+  margin: 15px 0;
+  /* justify-content: space-evenly; */
 }

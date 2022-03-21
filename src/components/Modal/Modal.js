@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import Form from '../ContactForm/ContactForm';
+import s from './Modal.module.css';
+import Form from '../Form/Form';
 
 function Modal({ onClose, onSubmit }) {
   useEffect(() => {
@@ -26,7 +27,7 @@ function Modal({ onClose, onSubmit }) {
 
   return (
     <div className="Overlay" onClick={handleOverlay}>
-      <div className="Modal">
+      <div className={s.modal}>
         <Form onSubmit={onSubmit} />
       </div>
     </div>

@@ -1,0 +1,12 @@
+.recipesList {
+}
+
+.recipeItem {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .recipeItem {
+    margin-bottom: 40px;
+  }
+}

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import getRandomRecipes from '../servises/api';
 import Container from '../components/Container/Container';
+import Button from '../components/Button/Button';
 import RandomRecipe from '../components/RandomRecipe/RandomRecipe';
 import useLocalStorage from '../hooks/useLocalStorage';
 
@@ -33,12 +34,10 @@ function HomeView() {
   return (
     <Container>
       <RandomRecipe dataRecipes={recipesData} />
-      <button type="button" onClick={handleNextRecipe}>
-        Skip
-      </button>
-      <button type="button" onClick={handleAddRecipe}>
-        Add
-      </button>
+      <div className="button-section">
+        <Button onClick={handleNextRecipe} name={'Skip'} />
+        <Button onClick={handleAddRecipe} name={'Add'} />
+      </div>
     </Container>
   );
 }

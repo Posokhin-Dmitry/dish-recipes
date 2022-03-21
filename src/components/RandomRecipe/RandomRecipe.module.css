@@ -1,0 +1,47 @@
+.recipeCard {
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px #8c8c8c, -3px -3px 10px #8d8d8d;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+}
+
+.img {
+  width: 100%;
+}
+
+.dishName {
+  font-size: 20px;
+  color: #ad5e0e;
+}
+
+.dishText {
+  font-size: 14px;
+}
+
+@media (min-width: 480px) {
+}
+
+@media (min-width: 768px) {
+  .dishName {
+    font-size: 30px;
+  }
+  .dishText {
+    font-size: 17px;
+  }
+
+  .recipeCard {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .recipeCard {
+    display: flex;
+  }
+  .textSection {
+    margin-left: 15px;
+  }
+}
